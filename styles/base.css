@@ -1,0 +1,236 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&family=Roboto&display=swap');
+
+@media (max-width: 809px) {
+
+:root {
+    --primary-color: #5D5D89;
+    --secondary-color: #EDE5E6;
+    --white: white;
+    --accent1-color: #181D4E;
+    --accent2-color: #632B30;
+  
+    --heading-font: "Jura";
+    --paragraph-font: "Roboto";
+}
+
+
+
+body {
+    font-family: var(--paragraph-font);
+    font-size: 1.2rem;
+    z-index: -1;
+}
+
+
+
+header {
+    background-color: var(--accent1-color);
+    color: var(--white);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+header div {
+    margin-left: auto;
+}
+#profile-pic {
+    width: 100px;
+    border-radius: 25px;
+    padding: 5px;
+    margin-left: auto;
+}
+#profile-name {
+    text-align: left;
+    padding: 5px;
+    margin: auto;
+}
+
+
+
+nav {
+    background-color: var(--primary-color);
+    color: var(--white);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+nav a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+    margin: 0px;
+}
+a {
+    color: var(--white);
+}
+a:hover {
+    text-decoration: underline;
+    color: var(--accent2-color);
+}
+
+nav ul {
+	list-style-type: none;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: var(--heading-font);
+    text-align: center;
+    padding: 1em;
+}
+
+h3 {
+    color: var(--white);
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: var(--white);
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: var(--white);
+}
+.navigation a:hover {
+	color: var(--accent2-color);
+    text-decoration: underline;
+	font-weight: 700;
+}
+
+/* the button! */
+.open a {
+    content: "";
+	display: block;
+}
+
+
+
+.hero {
+	margin: 10px auto;
+	position: relative;
+	border: 1px solid rgba(0,0,0,.1);
+	height: 300px;
+    max-width: 100%;
+
+}
+
+.hero img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+    border-radius: 15px;
+}
+
+.herolabel {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background: rgba(0,0,0,.75);
+	border: 1px solid rgba(0,0,0,.75);
+    border-radius: 15px;
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+    white-space: nowrap;
+}
+
+.herolabel p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 1.5rem;
+
+}
+
+
+main {
+    max-width: 960px;
+    display: grid;
+    padding: 1em 2.5em 5em 2.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+#subtitle {
+    padding: 0px;
+    text-decoration: underline;
+    color: var(--accent1-color);
+}
+
+main div, main section {
+    box-shadow: 5px 10px 15px;
+    border-radius: 15px;
+    color: var(--white);
+    background-color: var(--accent1-color);
+    margin: 5px;
+}
+li {
+    list-style: none;
+}
+main div h3, main section h3 {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+}
+main a {
+    margin: 0;
+}
+
+.cardHeader:hover::before, .cardHeader:hover::after {
+    content: "-";
+}
+
+#infoCard {
+    text-align: center;
+}
+figcaption {
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant:small-caps;
+    font-size: larger;
+}
+
+
+iframe  {
+    border-radius: 15px;
+    border-style: none;
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
+footer {
+    background-color: var(--accent1-color);
+    color: var(--white);
+    text-align: center;
+    padding: 10px;
+}
+
+}

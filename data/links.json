@@ -1,0 +1,91 @@
+{
+    "lessons": [
+        {
+            "lesson": "01",
+            "links": [
+                {
+                    "url": "lesson01/calculator.html",
+                    "title": "Calculator"
+                }
+            ]
+        },
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url": "",
+                    "title": ""
+                },
+                {
+                    "url": "",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url": "",
+                    "title": ""
+                },
+                {
+                    "url": "",
+                    "title": ""
+                },
+                {
+                    "url": "",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url": "",
+                    "title": ""
+                },
+                {
+                    "url": "",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url": "",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url": "",
+                    "title": ""
+                },
+                {
+                    "url": "",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "url": "",
+                    "title": ""
+                },
+                {
+                    "url": "",
+                    "title": ""
+                }
+            ]
+        }
+    ]
+}
